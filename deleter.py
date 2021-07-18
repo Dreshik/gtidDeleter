@@ -8,5 +8,5 @@ while True:
 	    else:
 	        break
 	for line in lines:
-		splittedLines = line.split('#')
-		print(splittedLines[1].strip())
+		splittedLines = line.split('# ')
+		print(splittedLines[1])
